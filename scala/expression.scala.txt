@@ -1,0 +1,9 @@
+def max(a: Int, b: Int): Unit = {
+  var max: Int = a
+
+  if (b > a) {
+    max = b
+  }
+
+  printf("Maximum is %d", max)
+}
